@@ -3,34 +3,122 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Muhammad Mustadi</title>
+
   <meta name="description" content="@mathdroid's Personal Site">
   <meta name="author" content="Muhammad Mustadi">
   <link rel="stylesheet" href="./css/tachyons.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:700" rel="stylesheet">
   <style type="text/css">
   .yellow-green { color: #b8e790; }
   .eigengrau { color: #16161D; }
   .bg-yellow-green { background-color: #b8e790; }
   .bg-eigengrau { background-color: #16161D; }
   .deep-lemon { color: #F3B61F; }
+  .twitter-blue { color: #33ccff; }
+  .github-blue { color: #4183c4; }
+  .instagram-blue { color: #125688; }
+  .spotify-green { color: #2ebd59; }
+  .lastfm-red { color: #d20e00; }
+  .keybase-red { color: #fd7039; }
   .ochre { color: #D17A22; }
+  body {
+
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+
+  }
+
+  .quicksand {
+    font-family: 'Quicksand';
+  }
   </style>
+  <script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+
+    return t;
+  }(document, "script", "twitter-wjs"));</script>
 
 </head>
 
-<body class="bg-eigengrau ph3 pv3 pv4-ns ph4-m sans-serif">
-  <header class="bg-transparent fixed w-100 ph5-l">
-    <nav class="f1 f6-ns 2fw6 ttu tracked fr">
-      <a class="link dim white dib fr" href="#" title="Contact">Contact</a>
+<body class="bg-eigengrau ph3 pv3 pv4-ns ph4-m quicksand">
+  <header class="bg-transparent fixed w-100 ph5-ns ph4">
+    <nav class="f4 f6-ns 2fw6 ttu tracked fr">
+      <a class="link dim white dib fr" href="mailto:muhammad.mustadi+staticsite@gmail.com?Subject=Hi%20there" target="_top">Contact</a>
     </nav>
   </header>
-  <main class="pv5 ph4">
-    <h1 class="white f-headline">Muhammad Mustadi</h1>
-    <h1 class="white-50 f3">Hi, I'm <b class="white">Odi</b>.</h2>
+  <main class="cf ph3 ph5-ns pv5 white-50">
+    <header class="fn fl-ns w-50-ns pr4-ns">
+      <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2 white ttu">
+        Muhammad Mustadi
+      </h1>
+      <h2 class="f3 white-70 lh-title">
+        Full-Stack Developer, Automation and Security Enthusiast.
+      </h2>
+      <p class="f6 ttu tracked gray"><time>Est. 1993</time> &middot; Status: <span class="green">Available for hire</span></p>
+    </header>
+    <div class="fn fl-ns w-50-ns sans-serif">
+      <p class="f5 lh-copy measure mt0-ns">
+        Hi there, welcome!
+        People call me <b class="white quicksand">Odi</b>.
+        You may also know me by my screen name, @<b class="white quicksand">mathdroid</b>.
+        My passion for making stuff is deeply entrenched since I was a kid, and so is my interest with computers.
+        I majored in <a href="https://itb.ac.id" class="link dim yellow-green quicksand" target="_top">Electrical Engineering</a>, where I found my true calling, which is <a href="https://en.wikipedia.org/wiki/Automation" class="link dim white quicksand" target="_top">automation</a>.
+        I keep dreaming this version of the world where people no longer have to do dirty jobs anymore, where humanity is <a href="https://en.wikipedia.org/wiki/Robotics" class="link dim white quicksand" target="_top">served</a> <a href="https://en.wikipedia.org/wiki/Military_robot" class="link dim white quicksand" target="_top">by</a> <a href="https://en.wikipedia.org/wiki/Domestic_robot" class="link dim white quicksand" target="_top">machines</a>, and nobody has to <a href="https://en.wikipedia.org/wiki/Basic_income" class="link dim white quicksand" target="_top">struggle</a> just to keep themselves alive.
+        I'm working my best to help achieve that cause, but everything must start small, so nowadays I try to make beautiful and performant programs.
+        (Currently in love with <a href="https://babeljs.io/" class="link dim yellow quicksand" target="_top">Javascript</a>.)
+      </p>
+      <p class="f5 lh-copy measure">
+        I still <a href="https://twitter.com/mathdroid" class="link dim twitter-blue quicksand" target="_top">Tweet</a> sometimes 😉, and if 140 characters isn't enough, I put them into my <a href="https://mustadi.xyz" class="link dim deep-lemon quicksand" target="_top">Blog</a>.
+        Sometimes I do interesting stuff with codes that I put on my <a class="github-blue link dim quicksand" href="https://github.com/mathdroid" target="_top">GitHub</a>.
+        My friends and family can find me on <a class="link dim blue quicksand" href="https://www.facebook.com/mathdroid" target="_top">Facebook</a> or <a class="link dim red quicksand" href="https://www.path.com/profile/3GZaRp" target="_top">Path</a>, and even in <a class="link dim instagram-blue quicksand" href="https://instagram.com/idatsum" target="_top">Instagram</a>, although I rarely post there.
+        I made chill playlists on <a class="link dim spotify-green quicksand" href="https://play.spotify.com/user/12164039257" target="_top">Spotify</a> and tracks it on <a class="link dim lastfm-red quicksand" href="http://last.fm/user/mathdroid" target="_top">Last.fm</a>.
+      </p>
+      <p class="f5 lh-copy measure">
+        You can reach me via contact form above.
+        If you want to encrypt your messages, my PGP key is hosted on my <a class="link dim keybase-red quicksand" href="https://keybase.io/mathdroid" target="_top">Keybase</a>.
+        Cheers! 🍻
+      </p>
+      <p class="f5 lh-copy measure">
+        P.S: for recruiters, here's my <a class="link dim white quicksand" href="https://standardresume.co/MuhammadMustadi" target="_top">résumé</a>.
+      </p>
+    </div>
   </main>
-  <footer>
-
+  <footer class="pv4 ph3 ph5-ns mid-gray mb1">
+    <div class="">
+      <a class="twitter-follow-button" href="https://twitter.com/mathdroid">Follow @mathdroid</a> <a class="github-button" href="https://github.com/mathdroid" data-count-href="/mathdroid/followers" data-count-api="/users/mathdroid#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @mathdroid on GitHub">Follow @mathdroid</a>
+    </div>
+    <span>
+      <small class="f6 db mt3">© 2016 <b class="ttu">Muhammad Mustadi</b>, All Rights Reserved.  <a class="github-button" href="https://github.com/mathdroid/mathdroid.github.io/fork" data-icon="octicon-repo-forked" aria-label="Fork mathdroid/mathdroid.github.io on GitHub">Fork this site</a> <a class="github-button" href="https://github.com/mathdroid/mathdroid.github.io" data-icon="octicon-star" data-count-href="/mathdroid/mathdroid.github.io/stargazers" data-count-api="/repos/mathdroid/mathdroid.github.io#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star mathdroid/mathdroid.github.io on GitHub">Star</a></small>
+    </span>
   </footer>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>
